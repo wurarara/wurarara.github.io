@@ -1,0 +1,229 @@
+@charset "utf-8";
+.cf::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+a:link,
+a:visited {
+    color: #111;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00a7ea !important;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+form>* {
+    outline: none;
+    border: 0;
+}
+
+.red {
+    color: red;
+}
+
+
+/* 顶部导航css代码 */
+
+.topnav {
+    line-height: 45px;
+    background: #252525;
+    color: #fff;
+}
+
+.topnav span {
+    float: right;
+}
+
+.topnav span a {
+    color: #939393;
+    padding-left: 20px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.topnav span a:first-child {
+    background: url(../images/tel.png) no-repeat 0 2px;
+}
+
+.topnav span a:nth-child(2) {
+    background: url(../images/mail.png) no-repeat 0 2px;
+}
+
+header {
+    height: 102px;
+    line-height: 102px;
+}
+
+header .logo {
+    margin-top: 26px;
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    padding-bottom: 15px;
+    margin: 0 30px;
+    font-size: 15px;
+}
+
+header nav a:hover {
+    background: url(../images/nav_bg02.png)no-repeat left 50% top -25px;
+}
+
+
+/* 顶部导航css代码结束 */
+
+
+/* h1标题下面的压线 */
+
+.line_ball {
+    background: url(../images/nav_bg02.png) no-repeat 0 22px;
+    padding: 22px 0;
+    font-size: 28px;
+}
+
+
+/* 底部页脚公用样式 */
+
+footer {
+    font-size: 15px;
+    color: #888;
+    background: #141414;
+    padding: 68px 0 0 80px;
+}
+
+.footer_left img {
+    margin-bottom: 20px;
+}
+
+footer .footer_left P {
+    padding-left: 35px;
+    line-height: 3em;
+}
+
+.footer_left {
+    width: 440px;
+}
+
+footer .footer_left p:nth-child(2) {
+    background: url(../images/icon.jpg) no-repeat 0 13px;
+}
+
+footer .footer_left p:nth-child(3) {
+    background: url(../images/icon.jpg) no-repeat 0 -27px;
+}
+
+footer .footer_left p:nth-child(4) {
+    background: url(../images/icon.jpg) no-repeat 0 -69px;
+}
+
+.footer_middle h2,
+.footer_bottom h2 {
+    font-size: 18px;
+    padding: 15px 0;
+    margin-bottom: 21px;
+    background: url(../images/line_bg.png) no-repeat left 10px top 5px;
+}
+
+.footer_middle {
+    width: 372px;
+}
+
+.linklist li {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.linklist a,
+.footer_bottom p a {
+    color: #888;
+}
+
+.linklist a:hover,
+.footer_bottom p a:hover {
+    color: #00a7ea;
+}
+
+.linklist li:nth-child(2n-1) {
+    margin-right: 90px;
+}
+
+.linklist li:nth-child(2n) {
+    margin-right: 130px;
+}
+
+.footer_bottom input {
+    margin-top: 15px;
+    box-sizing: border-box;
+    width: 320px;
+    height: 47px;
+    background: #333333;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+}
+
+.footer_bottom button {
+    margin-top: 15px;
+    width: 100px;
+    color: #fff;
+    line-height: 47px;
+    border: 0px;
+    background: #3aa27f;
+    position: absolute;
+    margin-left: -100px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.footer_bottom p {
+    width: 145px;
+    line-height: 30px;
+    margin-top: 35px;
+    background: url(../images/fenxiang.png) no-repeat right top 0;
+}
+
+footer .bottom_nav {
+    font-size: 12px;
+    text-align: center;
+    line-height: 76px;
+    background: #000000;
+    margin-top: 30px;
+}
+
+
+/* 回到顶部 */
+
+#gotop {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    cursor: pointer;
+    display: none;
+}
+
+#gotop img {
+    width: 100px;
+    height: 100px;
+}

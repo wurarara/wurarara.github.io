@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* 主导航的默认选项 */
+header nav a:nth-child(6){
+    background: url(../images/nav_bg02.png)no-repeat left 50% top -25px; 
+}
+/* 横幅 */
+.banner img{
+    width: 100%;
+}
+/* 子导航 */
+.middle_nav{
+    margin-bottom: 12px;
+    color: #777;
+    font-size: 14px;
+    line-height: 52px;
+    border-bottom: 2px solid #eee; 
+}
+.middle_nav a{
+    color: #777;
+
+}
+.middle_nav a:hover,.prodisp_main_right p:hover{
+    color: #0ff;
+}
+.contactus_main{
+    margin-top: 35px;
+}
+.contactus_main_left{
+    width: 260px;
+}
+.contactus_main_left a{
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #eeeded;
+    margin-bottom: 2px;
+    font-size: 14px;
+    line-height: 50px;
+}
+.contactus_main_left img{
+    margin-top: 20px;
+    width: 262px;
+    height: 262px;
+    cursor: pointer;
+}
+.contactus_main_right{
+    color: #777;
+    box-sizing: border-box;
+    width: 912px;
+    font-size: 14px;
+    padding: 0 0 16px 0;
+    
+}
+.contactus_main_right p{
+    border: 2px solid #eaeaea;
+    line-height: 2em;
+    margin-top: 35px;
+    padding: 37px 0 40px 24px;
+}
+
+

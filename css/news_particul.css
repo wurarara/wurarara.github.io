@@ -1,0 +1,115 @@
+@charset "utf-8";
+header nav a:nth-child(4){
+    background: url(../images/nav_bg02.png)no-repeat left 50% top -25px; 
+}
+.banner img{
+    width: 100%;
+}
+.middle_nav{
+    margin-bottom: 12px;
+    color: #777;
+    font-size: 14px;
+    line-height: 52px;
+    border-bottom: 2px solid #eee; 
+}
+.middle_nav a{
+    color: #777;
+
+}
+.middle_nav a:hover,{
+    color: #0ff;
+}
+.news_main{
+    margin-top: 35px;
+}
+.news_main_left{
+    width: 260px;
+}
+.news_main_left a{
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #eeeded;
+    margin-bottom: 2px;
+    font-size: 14px;
+    line-height: 100px;
+}
+.news_main_left img{
+    margin-top: 20px;
+    width: 262px;
+    height: 262px;
+    cursor: pointer;
+}
+.news_main_right{
+    box-sizing: border-box;
+    padding: 20px 0  0 0; 
+    width: 912px;
+    font-size: 13px;
+    color: #999;
+    border: 2px solid #eaeaea;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.news_main_right h2{
+   margin-bottom: 20px;
+    color: black;
+    font: 600 17px/1em 微软雅黑;
+    padding: 10px 0 0 0;
+}
+.news_main_right span{
+    
+    margin-right: 32px;
+}
+.news_main_right :nth-child(7){
+    margin-top:20px;
+    background: #eee;
+    text-indent: 2em;
+    padding: 15px 35px; 
+    color: #777;
+    text-align: left;
+    line-height: 2em;
+    
+    border-bottom: 2px solid #eaeaea;
+}
+.news_main_right h5{
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    padding: 18px 0 18px 60px;
+}
+.news_main_right p:nth-child(9){
+    font-size: 14px;
+    color: #555;
+    text-indent: 2em;
+    padding: 0 35px; 
+    color: #777;
+    text-align: left;
+    line-height: 2em;
+
+}
+.page_link{
+    margin-top: 60px;
+    text-align: left;
+    padding-left: 35px;
+    margin-bottom: 120px;
+    line-height: 2em;
+}
+.page {
+    font-size: 12px;
+    margin: 60px 0;
+    text-align: center;
+}
+.page span{
+    color: black;
+    margin-right: 10px; 
+}
+.page a{
+    padding: 5px;
+    border: 2px solid #eaeaea;
+}
+.page a:hover,.page a:nth-child(2){
+    border:0;
+    color: red;
+
+}
+

@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* 主导航栏的默认选项 */
+header nav a:first-child{
+    background: url(../images/nav_bg02.png)no-repeat left 50% top -25px; 
+}
+/* 横幅 */
+.banner{
+    margin-bottom: 27px;
+}
+.banner img{
+    height: 550px;
+    width: 100%;
+}
+/* 公司介绍 */
+.prodesc{
+    margin-bottom: 66px;
+}
+.prodesc li a{
+    color: aliceblue;
+}
+.prodesc li{
+    float: left;
+    font-size: 14px; 
+    text-align: center;
+    box-sizing: border-box;
+    padding: 42px 0 52px 0;
+    width: 400px;
+    height: 210px;
+}
+.prodesc li h1{
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 13px; 
+
+}
+.prodesc li p{
+    margin: auto;
+    width: 360px;
+    text-align: center;
+    line-height: 2em;
+    font-size: 14px;
+}
+.prodesc .desclist li:nth-child(1){
+    background: url(../images/01.jpg) no-repeat;
+}
+.prodesc .desclist li:nth-child(2){
+    background: url(../images/02.jpg) no-repeat;
+
+}
+.prodesc .desclist li:nth-child(3){
+    background: url(../images/03.jpg) no-repeat;
+
+}
+/* 产品展示 */
+.proreveal h1,.news h1{
+    background: url(../images/nav_bg02.png) no-repeat 0 22px; 
+    padding: 22px 0;
+    font-size: 28px;
+    margin-bottom: 42px;
+}
+.proreveal li{
+    float: left;
+    margin-right: 28px;
+    margin-bottom: 30px;
+}
+.proreveal li:nth-child(3){
+    float: right;
+    margin: 0;
+}
+.proreveal li a{
+    box-sizing: border-box;
+    padding: 110px 0;
+    text-align: center;
+    position: absolute;
+    margin-top: -275px;
+    display: block;
+    display: none;
+    width: 270px;
+    height: 275px;
+    background: rgba(255, 255, 255,0.8);
+}
+.proreveal li a h2{
+    color: black;
+    margin-bottom: 5px;
+    font: 500 20px/1em 微软雅黑;
+}
+.proreveal li a p{
+    font-size: 20px;
+    color: #2ec4ee;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+}
+.proreveal li:nth-child(3) a{
+    padding: 217px 0;
+    width: 600px;
+    height: 580px;
+    margin-top: -580px; 
+}
+.proreveal li:nth-child(3) a button{
+    display: block;
+    width: 136px;
+    height: 40px;
+    border-radius: 20px;
+    background:rgba(255, 255, 255, 0.1);
+    border: 2px solid black;
+    margin: auto;
+    cursor: pointer;
+}
+.proreveal li:nth-child(3) a button:hover{
+    background: #00a7ea;
+    color: #fff;
+}
+.proreveal li:hover a{
+    display: block;
+}
+
+/* 关于我们 */
+.aboutwe{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background: url(../images/banner3.jpg) no-repeat top center;
+}
+.aboutwe .aboutwe_main{
+    padding: 80px 0 70px 0;
+    text-align: center;
+}
+.aboutwe_main h1{
+    background: url(../images/nav_bg02.png) no-repeat left 50%  top -7px;
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin-bottom: 34px;
+}
+.aboutwe_main p{
+    color: #888;
+    font-size: 14px;
+    line-height: 2.5em;
+    margin: auto;
+    width: 680px;
+}
+.aboutwe_main button{
+    width: 154px;
+    line-height: 46px;
+    border-radius: 30px; 
+    color: #fff;
+    background: #25bbce;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    margin-top: 30px;
+}
+/* 新闻动态 */
+.news{
+    margin-bottom: 70px;
+}
+.newslist li{
+    float: left;
+    margin-right: 28px;
+    font-size: 14px;
+    width: 380px;
+    color: #999;
+    
+}
+.newslist li img{
+    margin-bottom: 13px; 
+}
+.newslist p{
+    line-height: 2em;
+    border-bottom: 2px solid  #ceced0;
+}
+.newslist p a:nth-child(1){
+    color: #5edaff;
+
+}
+.newslist p a:nth-child(2){
+    color: #444;
+}
+.newslist p span{
+    float: right;
+}
+.newslist li:last-child{
+    margin: 0;
+}

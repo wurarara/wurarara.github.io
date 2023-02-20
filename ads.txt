@@ -1,1 +1,2 @@
-google.com, pub-6487568398225121, DIRECT, f08c47fec0942fa0
+disqus.com, 4828879, DIRECT
+google.com, pub-6650322601660058, RESELLER, f08c47fec0942fa0

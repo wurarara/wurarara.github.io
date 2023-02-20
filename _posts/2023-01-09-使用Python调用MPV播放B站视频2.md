@@ -3,7 +3,7 @@ layout:       post
 title:        "使用Python调用MPV播放B站视频（二）"
 author:       "林间伞下"
 header-img: "img/home-bg.jpg"
-header-mask: 0.3
+header-mask: 0.4
 header-style: text
 catalog:      true
 tags:

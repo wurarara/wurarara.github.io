@@ -213,7 +213,7 @@ CTRL+0 no-osd change-list glsl-shaders clr ""; show-text "GLSL shaders cleared"
 ***
 
 <center>
-以下章节从第3步的代码部分起，请移步<b><a href="https://wurarara.github.io/posts/使用Python调用MPV播放B站视频2">下文</a></b>，命令精简到了一个python文件中
+以下章节从第3步的代码部分起，请移步<b><a href="https://wurarara.github.io/2023/01/09/使用Python调用MPV播放B站视频2">下文</a></b>，命令精简到了一个python文件中
 </center>
 
 ***

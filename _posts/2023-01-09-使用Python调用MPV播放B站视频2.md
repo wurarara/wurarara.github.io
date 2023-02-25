@@ -8,7 +8,7 @@ tags:
     - MPV
 ---
 
-书接[**上文**](https://wurarara.github.io/posts/使用Python调用MPV播放B站视频1)，精简掉了bat文件，全程在python执行，不多说直接上代码
+书接[**上文**](https://wurarara.github.io/2023/01/08/使用Python调用MPV播放B站视频1)，精简掉了bat文件，全程在python执行，不多说直接上代码
 
 ```python
 import sys

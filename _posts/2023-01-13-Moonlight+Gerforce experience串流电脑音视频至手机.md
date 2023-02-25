@@ -8,7 +8,7 @@ tags:
     - 串流
 ---
 
-![Moonlight](/img/moonlight.jpg "Moonlight")
+![Moonlight](/img/post/moonlight.jpg "Moonlight")
 
 ## Moonlight简介
 [**Moonlight**](https://github.com/moonlight-stream/moonlight-qt) 是一款开源软件。首先来看一下Github上的简介：
